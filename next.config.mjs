@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  // basePath and assetPrefix removed for custom domain
+  basePath: '/strata-example',
+  assetPrefix: '/strata-example',
   images: {
     unoptimized: true,
   },
