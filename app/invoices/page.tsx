@@ -1,21 +1,22 @@
-import type { Metadata } from "next";
-import Link from "next/link";
+"use client";
+
+import { useState } from "react";
 import invoices from "@/mock-data/invoices.json";
 import dealers from "@/mock-data/dealers.json";
 import vendors from "@/mock-data/vendors.json";
+import products from "@/mock-data/products.json";
+import rebateEarnings from "@/mock-data/rebate-earnings.json";
+import type { Invoice } from "@/mock-data/types";
 import {
   buildInvoiceList,
   getInvoiceSummary,
   formatCurrency,
   formatDate,
 } from "@/lib/invoiceMetrics";
-
-export const metadata: Metadata = {
-  title: "Invoices | Strata GPO",
-  description: "Detailed view of all invoice transactions",
-};
+import InvoiceDetailsModal from "@/components/invoices/InvoiceDetailsModal";
 
 export default function InvoicesPage() {
+  const [selectedInvoice, setSelectedInvoice] = useState<Invoice | null>(null);
   // Build enriched invoice list with computed values
   const invoicesWithComputed = buildInvoiceList(invoices, dealers, vendors);
   const summary = getInvoiceSummary(invoicesWithComputed);
@@ -105,20 +106,20 @@ export default function InvoicesPage() {
                     }`}
                   >
                     <td className="py-4 px-4">
-                      <span className="font-mono text-xs font-medium text-slate-900">
+                      <button
+                        onClick={() => setSelectedInvoice(invoiceData.invoice)}
+                        className="font-mono text-xs font-medium text-slate-900 hover:text-slate-600 hover:underline"
+                      >
                         {invoiceData.invoice.invoiceNumber}
-                      </span>
+                      </button>
                     </td>
                     <td className="py-4 px-4 text-slate-600">
                       {formatDate(invoiceData.invoice.date)}
                     </td>
                     <td className="py-4 px-4">
-                      <Link
-                        href={`/dealers/${invoiceData.invoice.dealerId}`}
-                        className="font-medium text-slate-900 hover:text-slate-600 hover:underline"
-                      >
+                      <div className="font-medium text-slate-900">
                         {invoiceData.dealerName}
-                      </Link>
+                      </div>
                       {invoiceData.dealerRegion && (
                         <div className="text-xs text-slate-500 mt-0.5">
                           {invoiceData.dealerRegion}
@@ -126,12 +127,9 @@ export default function InvoicesPage() {
                       )}
                     </td>
                     <td className="py-4 px-4">
-                      <Link
-                        href={`/vendors/${invoiceData.invoice.vendorId}`}
-                        className="font-medium text-slate-900 hover:text-slate-600 hover:underline"
-                      >
+                      <div className="font-medium text-slate-900">
                         {invoiceData.vendorName}
-                      </Link>
+                      </div>
                     </td>
                     <td className="py-4 px-4 text-right">
                       <span className="inline-flex items-center justify-center min-w-[2rem] px-2 py-1 rounded-md bg-slate-100 text-slate-700 font-medium text-xs">
@@ -150,10 +148,22 @@ export default function InvoicesPage() {
 
         {/* Footer note */}
         <div className="text-xs text-slate-500 text-center">
-          Invoices are sorted by date (newest first). Click dealer or vendor
-          names to view detailed analytics.
+          Invoices are sorted by date (newest first). Click an invoice number to
+          view detailed information.
         </div>
       </div>
+
+      {/* Modal */}
+      {selectedInvoice && (
+        <InvoiceDetailsModal
+          invoice={selectedInvoice}
+          dealer={dealers.find((d) => d.id === selectedInvoice.dealerId)}
+          vendor={vendors.find((v) => v.id === selectedInvoice.vendorId)}
+          products={products}
+          rebateEarnings={rebateEarnings}
+          onClose={() => setSelectedInvoice(null)}
+        />
+      )}
     </div>
   );
 }

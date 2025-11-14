@@ -1,21 +1,22 @@
-import type { Metadata } from "next";
-import Link from "next/link";
+"use client";
+
+import { useState } from "react";
 import dealers from "@/mock-data/dealers.json";
 import invoices from "@/mock-data/invoices.json";
 import rebateEarnings from "@/mock-data/rebate-earnings.json";
+import vendors from "@/mock-data/vendors.json";
+import products from "@/mock-data/products.json";
+import type { Dealer } from "@/mock-data/types";
 import {
   buildDealerMetrics,
   calculateDealerSummary,
   formatCurrency,
   formatPercent,
 } from "@/lib/dealerMetrics";
-
-export const metadata: Metadata = {
-  title: "Dealers Overview | Strata GPO",
-  description: "Dealer performance, spend, and rebate metrics",
-};
+import DealerDetailsModal from "@/components/dealers/DealerDetailsModal";
 
 export default function DealersPage() {
+  const [selectedDealer, setSelectedDealer] = useState<Dealer | null>(null);
   // Calculate metrics for all dealers
   const dealerMetrics = buildDealerMetrics(dealers, invoices, rebateEarnings);
   const summary = calculateDealerSummary(dealerMetrics);
@@ -97,12 +98,12 @@ export default function DealersPage() {
                     }`}
                   >
                     <td className="py-4 px-4">
-                      <Link
-                        href={`/dealers/${dealerData.dealer.id}`}
-                        className="font-medium text-slate-900 hover:text-slate-600 hover:underline"
+                      <button
+                        onClick={() => setSelectedDealer(dealerData.dealer)}
+                        className="font-medium text-slate-900 hover:text-slate-600 hover:underline text-left"
                       >
                         {dealerData.dealer.name}
-                      </Link>
+                      </button>
                     </td>
                     <td className="py-4 px-4 text-slate-600">
                       {dealerData.dealer.region}
@@ -140,6 +141,18 @@ export default function DealersPage() {
           name to view detailed analytics.
         </div>
       </div>
+
+      {/* Modal */}
+      {selectedDealer && (
+        <DealerDetailsModal
+          dealer={selectedDealer}
+          invoices={invoices}
+          rebateEarnings={rebateEarnings}
+          vendors={vendors}
+          products={products}
+          onClose={() => setSelectedDealer(null)}
+        />
+      )}
     </div>
   );
 }

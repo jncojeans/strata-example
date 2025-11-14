@@ -1,21 +1,22 @@
-import type { Metadata } from "next";
-import Link from "next/link";
+"use client";
+
+import { useState } from "react";
 import vendors from "@/mock-data/vendors.json";
 import invoices from "@/mock-data/invoices.json";
 import rebateEarnings from "@/mock-data/rebate-earnings.json";
+import dealers from "@/mock-data/dealers.json";
+import products from "@/mock-data/products.json";
+import type { Vendor } from "@/mock-data/types";
 import {
   buildVendorMetrics,
   calculateVendorSummary,
   formatCurrency,
   formatPercent,
 } from "@/lib/vendorMetrics";
-
-export const metadata: Metadata = {
-  title: "Vendors Overview | Strata GPO",
-  description: "Vendor performance, spend, rebates, and dealer coverage",
-};
+import VendorDetailsModal from "@/components/vendors/VendorDetailsModal";
 
 export default function VendorsPage() {
+  const [selectedVendor, setSelectedVendor] = useState<Vendor | null>(null);
   // Calculate metrics for all vendors
   // Vendors are sorted by total spend (highest to lowest)
   const vendorMetrics = buildVendorMetrics(vendors, invoices, rebateEarnings);
@@ -98,12 +99,12 @@ export default function VendorsPage() {
                     }`}
                   >
                     <td className="py-4 px-4">
-                      <Link
-                        href={`/vendors/${vendorData.vendor.id}`}
-                        className="font-medium text-slate-900 hover:text-slate-600 hover:underline"
+                      <button
+                        onClick={() => setSelectedVendor(vendorData.vendor)}
+                        className="font-medium text-slate-900 hover:text-slate-600 hover:underline text-left"
                       >
                         {vendorData.vendor.name}
-                      </Link>
+                      </button>
                     </td>
                     <td className="py-4 px-4">
                       <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">
@@ -143,6 +144,18 @@ export default function VendorsPage() {
           name to view detailed analytics.
         </div>
       </div>
+
+      {/* Modal */}
+      {selectedVendor && (
+        <VendorDetailsModal
+          vendor={selectedVendor}
+          invoices={invoices}
+          rebateEarnings={rebateEarnings}
+          dealers={dealers}
+          products={products}
+          onClose={() => setSelectedVendor(null)}
+        />
+      )}
     </div>
   );
 }
