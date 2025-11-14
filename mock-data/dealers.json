@@ -1,0 +1,33 @@
+[
+  {
+    "id": "d1a2b3c4-5678-90ab-cdef-111111111111",
+    "name": "Mountain Foodservice Supply",
+    "region": "Mountain West",
+    "annualSpend": 2400000
+  },
+  {
+    "id": "d2a2b3c4-5678-90ab-cdef-222222222222",
+    "name": "Coastal Restaurant Distributors",
+    "region": "Pacific Northwest",
+    "annualSpend": 3200000
+  },
+  {
+    "id": "d3a2b3c4-5678-90ab-cdef-333333333333",
+    "name": "Prairie Kitchen Outfitters",
+    "region": "Great Plains",
+    "annualSpend": 1850000
+  },
+  {
+    "id": "d4a2b3c4-5678-90ab-cdef-444444444444",
+    "name": "Southwest Culinary Supply",
+    "region": "Southwest",
+    "annualSpend": 2900000
+  },
+  {
+    "id": "d5a2b3c4-5678-90ab-cdef-555555555555",
+    "name": "Great Lakes Equipment Co.",
+    "region": "Midwest",
+    "annualSpend": 2100000
+  }
+]
+

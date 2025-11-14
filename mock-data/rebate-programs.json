@@ -1,0 +1,102 @@
+[
+  {
+    "id": "rp1a2b3c-5678-90ab-cdef-111111111111",
+    "vendorId": "v1a2b3c4-5678-90ab-cdef-111111111111",
+    "programName": "Annual Volume Rebate - Polar Refrigeration",
+    "tiers": [
+      {
+        "threshold": 50000,
+        "rebatePercent": 2.0
+      },
+      {
+        "threshold": 150000,
+        "rebatePercent": 3.5
+      },
+      {
+        "threshold": 300000,
+        "rebatePercent": 5.0
+      }
+    ]
+  },
+  {
+    "id": "rp2a2b3c-5678-90ab-cdef-222222222222",
+    "vendorId": "v2a2b3c4-5678-90ab-cdef-222222222222",
+    "programName": "Quarterly Performance Rebate - IronChef",
+    "tiers": [
+      {
+        "threshold": 25000,
+        "rebatePercent": 2.5
+      },
+      {
+        "threshold": 75000,
+        "rebatePercent": 4.0
+      },
+      {
+        "threshold": 150000,
+        "rebatePercent": 5.5
+      },
+      {
+        "threshold": 250000,
+        "rebatePercent": 6.5
+      }
+    ]
+  },
+  {
+    "id": "rp3a2b3c-5678-90ab-cdef-333333333333",
+    "vendorId": "v3a2b3c4-5678-90ab-cdef-333333333333",
+    "programName": "Growth Incentive Program - Premier Smallwares",
+    "tiers": [
+      {
+        "threshold": 10000,
+        "rebatePercent": 1.5
+      },
+      {
+        "threshold": 30000,
+        "rebatePercent": 2.5
+      },
+      {
+        "threshold": 60000,
+        "rebatePercent": 3.5
+      }
+    ]
+  },
+  {
+    "id": "rp4a2b3c-5678-90ab-cdef-444444444444",
+    "vendorId": "v4a2b3c4-5678-90ab-cdef-444444444444",
+    "programName": "Volume Purchase Program - CleanPro",
+    "tiers": [
+      {
+        "threshold": 5000,
+        "rebatePercent": 1.0
+      },
+      {
+        "threshold": 15000,
+        "rebatePercent": 2.0
+      },
+      {
+        "threshold": 35000,
+        "rebatePercent": 3.0
+      }
+    ]
+  },
+  {
+    "id": "rp5a2b3c-5678-90ab-cdef-555555555555",
+    "vendorId": "v5a2b3c4-5678-90ab-cdef-555555555555",
+    "programName": "Partner Rewards Program - FrostGuard",
+    "tiers": [
+      {
+        "threshold": 40000,
+        "rebatePercent": 2.5
+      },
+      {
+        "threshold": 100000,
+        "rebatePercent": 4.0
+      },
+      {
+        "threshold": 200000,
+        "rebatePercent": 5.5
+      }
+    ]
+  }
+]
+

@@ -1,0 +1,33 @@
+[
+  {
+    "id": "v1a2b3c4-5678-90ab-cdef-111111111111",
+    "name": "Polar Refrigeration Co.",
+    "category": "Refrigeration",
+    "baseRebateRate": 3.0
+  },
+  {
+    "id": "v2a2b3c4-5678-90ab-cdef-222222222222",
+    "name": "IronChef Fabrication",
+    "category": "Cooking Equipment",
+    "baseRebateRate": 4.0
+  },
+  {
+    "id": "v3a2b3c4-5678-90ab-cdef-333333333333",
+    "name": "Premier Smallwares Inc.",
+    "category": "Smallwares",
+    "baseRebateRate": 2.5
+  },
+  {
+    "id": "v4a2b3c4-5678-90ab-cdef-444444444444",
+    "name": "CleanPro Solutions",
+    "category": "Janitorial",
+    "baseRebateRate": 2.0
+  },
+  {
+    "id": "v5a2b3c4-5678-90ab-cdef-555555555555",
+    "name": "FrostGuard Systems",
+    "category": "Refrigeration",
+    "baseRebateRate": 3.5
+  }
+]
+

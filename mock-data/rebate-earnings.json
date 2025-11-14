@@ -1,0 +1,308 @@
+[
+  {
+    "id": "re-2024q3-001",
+    "dealerId": "d2a2b3c4-5678-90ab-cdef-222222222222",
+    "vendorId": "v2a2b3c4-5678-90ab-cdef-222222222222",
+    "period": "2024-Q3",
+    "spend": 38000.00,
+    "rebatePercentApplied": 3.5,
+    "rebateAmount": 1330.00
+  },
+  {
+    "id": "re-2024q3-002",
+    "dealerId": "d1a2b3c4-5678-90ab-cdef-111111111111",
+    "vendorId": "v1a2b3c4-5678-90ab-cdef-111111111111",
+    "period": "2024-Q3",
+    "spend": 32000.00,
+    "rebatePercentApplied": 2.5,
+    "rebateAmount": 800.00
+  },
+  {
+    "id": "re-2024q3-003",
+    "dealerId": "d3a2b3c4-5678-90ab-cdef-333333333333",
+    "vendorId": "v3a2b3c4-5678-90ab-cdef-333333333333",
+    "period": "2024-Q3",
+    "spend": 22000.00,
+    "rebatePercentApplied": 2.0,
+    "rebateAmount": 440.00
+  },
+  {
+    "id": "re-2024q3-004",
+    "dealerId": "d4a2b3c4-5678-90ab-cdef-444444444444",
+    "vendorId": "v2a2b3c4-5678-90ab-cdef-222222222222",
+    "period": "2024-Q3",
+    "spend": 28000.00,
+    "rebatePercentApplied": 2.0,
+    "rebateAmount": 560.00
+  },
+  {
+    "id": "re-2024q3-005",
+    "dealerId": "d5a2b3c4-5678-90ab-cdef-555555555555",
+    "vendorId": "v5a2b3c4-5678-90ab-cdef-555555555555",
+    "period": "2024-Q3",
+    "spend": 25000.00,
+    "rebatePercentApplied": 1.5,
+    "rebateAmount": 375.00
+  },
+  {
+    "id": "re-2024q4-001",
+    "dealerId": "d2a2b3c4-5678-90ab-cdef-222222222222",
+    "vendorId": "v2a2b3c4-5678-90ab-cdef-222222222222",
+    "period": "2024-Q4",
+    "spend": 85000.00,
+    "rebatePercentApplied": 6.5,
+    "rebateAmount": 5525.00
+  },
+  {
+    "id": "re-2024q4-002",
+    "dealerId": "d1a2b3c4-5678-90ab-cdef-111111111111",
+    "vendorId": "v1a2b3c4-5678-90ab-cdef-111111111111",
+    "period": "2024-Q4",
+    "spend": 68000.00,
+    "rebatePercentApplied": 5.0,
+    "rebateAmount": 3400.00
+  },
+  {
+    "id": "re-2024q4-003",
+    "dealerId": "d3a2b3c4-5678-90ab-cdef-333333333333",
+    "vendorId": "v2a2b3c4-5678-90ab-cdef-222222222222",
+    "period": "2024-Q4",
+    "spend": 52000.00,
+    "rebatePercentApplied": 5.5,
+    "rebateAmount": 2860.00
+  },
+  {
+    "id": "re-2024q4-004",
+    "dealerId": "d5a2b3c4-5678-90ab-cdef-555555555555",
+    "vendorId": "v5a2b3c4-5678-90ab-cdef-555555555555",
+    "period": "2024-Q4",
+    "spend": 58000.00,
+    "rebatePercentApplied": 4.0,
+    "rebateAmount": 2320.00
+  },
+  {
+    "id": "re-2024q4-005",
+    "dealerId": "d4a2b3c4-5678-90ab-cdef-444444444444",
+    "vendorId": "v3a2b3c4-5678-90ab-cdef-333333333333",
+    "period": "2024-Q4",
+    "spend": 42000.00,
+    "rebatePercentApplied": 3.5,
+    "rebateAmount": 1470.00
+  },
+  {
+    "id": "re-2024q4-006",
+    "dealerId": "d2a2b3c4-5678-90ab-cdef-222222222222",
+    "vendorId": "v4a2b3c4-5678-90ab-cdef-444444444444",
+    "period": "2024-Q4",
+    "spend": 18000.00,
+    "rebatePercentApplied": 2.5,
+    "rebateAmount": 450.00
+  },
+  {
+    "id": "re1a2b3c-5678-90ab-cdef-111111111111",
+    "dealerId": "d2a2b3c4-5678-90ab-cdef-222222222222",
+    "vendorId": "v2a2b3c4-5678-90ab-cdef-222222222222",
+    "period": "2025-Q1",
+    "spend": 42000.00,
+    "rebatePercentApplied": 4.0,
+    "rebateAmount": 1680.00
+  },
+  {
+    "id": "re2a2b3c-5678-90ab-cdef-222222222222",
+    "dealerId": "d3a2b3c4-5678-90ab-cdef-333333333333",
+    "vendorId": "v2a2b3c4-5678-90ab-cdef-222222222222",
+    "period": "2025-Q1",
+    "spend": 28000.00,
+    "rebatePercentApplied": 3.5,
+    "rebateAmount": 980.00
+  },
+  {
+    "id": "re3a2b3c-5678-90ab-cdef-333333333333",
+    "dealerId": "d4a2b3c4-5678-90ab-cdef-444444444444",
+    "vendorId": "v3a2b3c4-5678-90ab-cdef-333333333333",
+    "period": "2025-Q1",
+    "spend": 18500.00,
+    "rebatePercentApplied": 2.5,
+    "rebateAmount": 462.50
+  },
+  {
+    "id": "re4a2b3c-5678-90ab-cdef-444444444444",
+    "dealerId": "d5a2b3c4-5678-90ab-cdef-555555555555",
+    "vendorId": "v5a2b3c4-5678-90ab-cdef-555555555555",
+    "period": "2025-Q1",
+    "spend": 35000.00,
+    "rebatePercentApplied": 2.5,
+    "rebateAmount": 875.00
+  },
+  {
+    "id": "re5a2b3c-5678-90ab-cdef-555555555555",
+    "dealerId": "d1a2b3c4-5678-90ab-cdef-111111111111",
+    "vendorId": "v5a2b3c4-5678-90ab-cdef-555555555555",
+    "period": "2025-Q1",
+    "spend": 32000.00,
+    "rebatePercentApplied": 2.5,
+    "rebateAmount": 800.00
+  },
+  {
+    "id": "re6a2b3c-5678-90ab-cdef-666666666666",
+    "dealerId": "d5a2b3c4-5678-90ab-cdef-555555555555",
+    "vendorId": "v1a2b3c4-5678-90ab-cdef-111111111111",
+    "period": "2025-Q1",
+    "spend": 24000.00,
+    "rebatePercentApplied": 2.0,
+    "rebateAmount": 480.00
+  },
+  {
+    "id": "re7a2b3c-5678-90ab-cdef-777777777777",
+    "dealerId": "d4a2b3c4-5678-90ab-cdef-444444444444",
+    "vendorId": "v1a2b3c4-5678-90ab-cdef-111111111111",
+    "period": "2025-Q1",
+    "spend": 26000.00,
+    "rebatePercentApplied": 2.0,
+    "rebateAmount": 520.00
+  },
+  {
+    "id": "re8a2b3c-5678-90ab-cdef-888888888888",
+    "dealerId": "d1a2b3c4-5678-90ab-cdef-111111111111",
+    "vendorId": "v2a2b3c4-5678-90ab-cdef-222222222222",
+    "period": "2025-Q1",
+    "spend": 15000.00,
+    "rebatePercentApplied": 1.5,
+    "rebateAmount": 225.00
+  },
+  {
+    "id": "re9a2b3c-5678-90ab-cdef-999999999999",
+    "dealerId": "d1a2b3c4-5678-90ab-cdef-111111111111",
+    "vendorId": "v1a2b3c4-5678-90ab-cdef-111111111111",
+    "period": "2025-Q1",
+    "spend": 22000.00,
+    "rebatePercentApplied": 2.0,
+    "rebateAmount": 440.00
+  },
+  {
+    "id": "re10a2b3-5678-90ab-cdef-101010101010",
+    "dealerId": "d3a2b3c4-5678-90ab-cdef-333333333333",
+    "vendorId": "v3a2b3c4-5678-90ab-cdef-333333333333",
+    "period": "2025-Q1",
+    "spend": 12000.00,
+    "rebatePercentApplied": 1.5,
+    "rebateAmount": 180.00
+  },
+  {
+    "id": "re-2025q2-001",
+    "dealerId": "d2a2b3c4-5678-90ab-cdef-222222222222",
+    "vendorId": "v2a2b3c4-5678-90ab-cdef-222222222222",
+    "period": "2025-Q2",
+    "spend": 62000.00,
+    "rebatePercentApplied": 5.0,
+    "rebateAmount": 3100.00
+  },
+  {
+    "id": "re-2025q2-002",
+    "dealerId": "d1a2b3c4-5678-90ab-cdef-111111111111",
+    "vendorId": "v1a2b3c4-5678-90ab-cdef-111111111111",
+    "period": "2025-Q2",
+    "spend": 48000.00,
+    "rebatePercentApplied": 4.0,
+    "rebateAmount": 1920.00
+  },
+  {
+    "id": "re-2025q2-003",
+    "dealerId": "d3a2b3c4-5678-90ab-cdef-333333333333",
+    "vendorId": "v2a2b3c4-5678-90ab-cdef-222222222222",
+    "period": "2025-Q2",
+    "spend": 45000.00,
+    "rebatePercentApplied": 4.5,
+    "rebateAmount": 2025.00
+  },
+  {
+    "id": "re-2025q2-004",
+    "dealerId": "d4a2b3c4-5678-90ab-cdef-444444444444",
+    "vendorId": "v3a2b3c4-5678-90ab-cdef-333333333333",
+    "period": "2025-Q2",
+    "spend": 32000.00,
+    "rebatePercentApplied": 3.0,
+    "rebateAmount": 960.00
+  },
+  {
+    "id": "re-2025q2-005",
+    "dealerId": "d5a2b3c4-5678-90ab-cdef-555555555555",
+    "vendorId": "v5a2b3c4-5678-90ab-cdef-555555555555",
+    "period": "2025-Q2",
+    "spend": 52000.00,
+    "rebatePercentApplied": 4.0,
+    "rebateAmount": 2080.00
+  },
+  {
+    "id": "re-2025q2-006",
+    "dealerId": "d1a2b3c4-5678-90ab-cdef-111111111111",
+    "vendorId": "v2a2b3c4-5678-90ab-cdef-222222222222",
+    "period": "2025-Q2",
+    "spend": 28000.00,
+    "rebatePercentApplied": 3.5,
+    "rebateAmount": 980.00
+  },
+  {
+    "id": "re-2025q3-001",
+    "dealerId": "d2a2b3c4-5678-90ab-cdef-222222222222",
+    "vendorId": "v2a2b3c4-5678-90ab-cdef-222222222222",
+    "period": "2025-Q3",
+    "spend": 95000.00,
+    "rebatePercentApplied": 7.0,
+    "rebateAmount": 6650.00
+  },
+  {
+    "id": "re-2025q3-002",
+    "dealerId": "d1a2b3c4-5678-90ab-cdef-111111111111",
+    "vendorId": "v1a2b3c4-5678-90ab-cdef-111111111111",
+    "period": "2025-Q3",
+    "spend": 78000.00,
+    "rebatePercentApplied": 5.5,
+    "rebateAmount": 4290.00
+  },
+  {
+    "id": "re-2025q3-003",
+    "dealerId": "d3a2b3c4-5678-90ab-cdef-333333333333",
+    "vendorId": "v2a2b3c4-5678-90ab-cdef-222222222222",
+    "period": "2025-Q3",
+    "spend": 58000.00,
+    "rebatePercentApplied": 5.5,
+    "rebateAmount": 3190.00
+  },
+  {
+    "id": "re-2025q3-004",
+    "dealerId": "d4a2b3c4-5678-90ab-cdef-444444444444",
+    "vendorId": "v3a2b3c4-5678-90ab-cdef-333333333333",
+    "period": "2025-Q3",
+    "spend": 42000.00,
+    "rebatePercentApplied": 4.5,
+    "rebateAmount": 1890.00
+  },
+  {
+    "id": "re-2025q3-005",
+    "dealerId": "d5a2b3c4-5678-90ab-cdef-555555555555",
+    "vendorId": "v5a2b3c4-5678-90ab-cdef-555555555555",
+    "period": "2025-Q3",
+    "spend": 68000.00,
+    "rebatePercentApplied": 6.0,
+    "rebateAmount": 4080.00
+  },
+  {
+    "id": "re-2025q3-006",
+    "dealerId": "d1a2b3c4-5678-90ab-cdef-111111111111",
+    "vendorId": "v2a2b3c4-5678-90ab-cdef-222222222222",
+    "period": "2025-Q3",
+    "spend": 38000.00,
+    "rebatePercentApplied": 4.5,
+    "rebateAmount": 1710.00
+  },
+  {
+    "id": "re-2025q3-007",
+    "dealerId": "d3a2b3c4-5678-90ab-cdef-333333333333",
+    "vendorId": "v3a2b3c4-5678-90ab-cdef-333333333333",
+    "period": "2025-Q3",
+    "spend": 28000.00,
+    "rebatePercentApplied": 3.5,
+    "rebateAmount": 980.00
+  }
+]

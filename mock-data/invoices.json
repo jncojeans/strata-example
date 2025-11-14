@@ -1,0 +1,231 @@
+[
+  {
+    "id": "i1a2b3c4-5678-90ab-cdef-111111111111",
+    "dealerId": "d1a2b3c4-5678-90ab-cdef-111111111111",
+    "vendorId": "v1a2b3c4-5678-90ab-cdef-111111111111",
+    "invoiceNumber": "INV-2025-0001",
+    "date": "2025-01-15",
+    "lineItems": [
+      {
+        "productId": "p1a2b3c4-5678-90ab-cdef-111111111111",
+        "quantity": 2,
+        "unitPrice": 3200.00
+      },
+      {
+        "productId": "p3a2b3c4-5678-90ab-cdef-333333333333",
+        "quantity": 1,
+        "unitPrice": 4800.00
+      }
+    ]
+  },
+  {
+    "id": "i2a2b3c4-5678-90ab-cdef-222222222222",
+    "dealerId": "d2a2b3c4-5678-90ab-cdef-222222222222",
+    "vendorId": "v2a2b3c4-5678-90ab-cdef-222222222222",
+    "invoiceNumber": "INV-2025-0002",
+    "date": "2025-01-18",
+    "lineItems": [
+      {
+        "productId": "p4a2b3c4-5678-90ab-cdef-444444444444",
+        "quantity": 3,
+        "unitPrice": 5600.00
+      },
+      {
+        "productId": "p5a2b3c4-5678-90ab-cdef-555555555555",
+        "quantity": 2,
+        "unitPrice": 3800.00
+      }
+    ]
+  },
+  {
+    "id": "i3a2b3c4-5678-90ab-cdef-333333333333",
+    "dealerId": "d3a2b3c4-5678-90ab-cdef-333333333333",
+    "vendorId": "v3a2b3c4-5678-90ab-cdef-333333333333",
+    "invoiceNumber": "INV-2025-0003",
+    "date": "2025-01-22",
+    "lineItems": [
+      {
+        "productId": "p7a2b3c4-5678-90ab-cdef-777777777777",
+        "quantity": 10,
+        "unitPrice": 450.00
+      },
+      {
+        "productId": "p8a2b3c4-5678-90ab-cdef-888888888888",
+        "quantity": 8,
+        "unitPrice": 320.00
+      },
+      {
+        "productId": "p9a2b3c4-5678-90ab-cdef-999999999999",
+        "quantity": 15,
+        "unitPrice": 180.00
+      }
+    ]
+  },
+  {
+    "id": "i4a2b3c4-5678-90ab-cdef-444444444444",
+    "dealerId": "d1a2b3c4-5678-90ab-cdef-111111111111",
+    "vendorId": "v2a2b3c4-5678-90ab-cdef-222222222222",
+    "invoiceNumber": "INV-2025-0004",
+    "date": "2025-02-05",
+    "lineItems": [
+      {
+        "productId": "p6a2b3c4-5678-90ab-cdef-666666666666",
+        "quantity": 4,
+        "unitPrice": 2900.00
+      }
+    ]
+  },
+  {
+    "id": "i5a2b3c4-5678-90ab-cdef-555555555555",
+    "dealerId": "d4a2b3c4-5678-90ab-cdef-444444444444",
+    "vendorId": "v1a2b3c4-5678-90ab-cdef-111111111111",
+    "invoiceNumber": "INV-2025-0005",
+    "date": "2025-02-10",
+    "lineItems": [
+      {
+        "productId": "p2a2b3c4-5678-90ab-cdef-222222222222",
+        "quantity": 1,
+        "unitPrice": 12500.00
+      },
+      {
+        "productId": "p1a2b3c4-5678-90ab-cdef-111111111111",
+        "quantity": 3,
+        "unitPrice": 3200.00
+      }
+    ]
+  },
+  {
+    "id": "i6a2b3c4-5678-90ab-cdef-666666666666",
+    "dealerId": "d5a2b3c4-5678-90ab-cdef-555555555555",
+    "vendorId": "v5a2b3c4-5678-90ab-cdef-555555555555",
+    "invoiceNumber": "INV-2025-0006",
+    "date": "2025-02-15",
+    "lineItems": [
+      {
+        "productId": "p12a2b3c-5678-90ab-cdef-121212121212",
+        "quantity": 5,
+        "unitPrice": 4200.00
+      },
+      {
+        "productId": "p13a2b3c-5678-90ab-cdef-131313131313",
+        "quantity": 2,
+        "unitPrice": 6800.00
+      }
+    ]
+  },
+  {
+    "id": "i7a2b3c4-5678-90ab-cdef-777777777777",
+    "dealerId": "d2a2b3c4-5678-90ab-cdef-222222222222",
+    "vendorId": "v4a2b3c4-5678-90ab-cdef-444444444444",
+    "invoiceNumber": "INV-2025-0007",
+    "date": "2025-02-20",
+    "lineItems": [
+      {
+        "productId": "p10a2b3c-5678-90ab-cdef-101010101010",
+        "quantity": 8,
+        "unitPrice": 280.00
+      },
+      {
+        "productId": "p11a2b3c-5678-90ab-cdef-111111111110",
+        "quantity": 12,
+        "unitPrice": 195.00
+      }
+    ]
+  },
+  {
+    "id": "i8a2b3c4-5678-90ab-cdef-888888888888",
+    "dealerId": "d3a2b3c4-5678-90ab-cdef-333333333333",
+    "vendorId": "v2a2b3c4-5678-90ab-cdef-222222222222",
+    "invoiceNumber": "INV-2025-0008",
+    "date": "2025-03-01",
+    "lineItems": [
+      {
+        "productId": "p4a2b3c4-5678-90ab-cdef-444444444444",
+        "quantity": 2,
+        "unitPrice": 5600.00
+      },
+      {
+        "productId": "p5a2b3c4-5678-90ab-cdef-555555555555",
+        "quantity": 3,
+        "unitPrice": 3800.00
+      },
+      {
+        "productId": "p6a2b3c4-5678-90ab-cdef-666666666666",
+        "quantity": 1,
+        "unitPrice": 2900.00
+      }
+    ]
+  },
+  {
+    "id": "i9a2b3c4-5678-90ab-cdef-999999999999",
+    "dealerId": "d4a2b3c4-5678-90ab-cdef-444444444444",
+    "vendorId": "v3a2b3c4-5678-90ab-cdef-333333333333",
+    "invoiceNumber": "INV-2025-0009",
+    "date": "2025-03-08",
+    "lineItems": [
+      {
+        "productId": "p7a2b3c4-5678-90ab-cdef-777777777777",
+        "quantity": 20,
+        "unitPrice": 450.00
+      },
+      {
+        "productId": "p9a2b3c4-5678-90ab-cdef-999999999999",
+        "quantity": 25,
+        "unitPrice": 180.00
+      }
+    ]
+  },
+  {
+    "id": "i10a2b3c-5678-90ab-cdef-101010101010",
+    "dealerId": "d1a2b3c4-5678-90ab-cdef-111111111111",
+    "vendorId": "v5a2b3c4-5678-90ab-cdef-555555555555",
+    "invoiceNumber": "INV-2025-0010",
+    "date": "2025-03-12",
+    "lineItems": [
+      {
+        "productId": "p13a2b3c-5678-90ab-cdef-131313131313",
+        "quantity": 4,
+        "unitPrice": 6800.00
+      }
+    ]
+  },
+  {
+    "id": "i11a2b3c-5678-90ab-cdef-111111111110",
+    "dealerId": "d5a2b3c4-5678-90ab-cdef-555555555555",
+    "vendorId": "v1a2b3c4-5678-90ab-cdef-111111111111",
+    "invoiceNumber": "INV-2025-0011",
+    "date": "2025-03-18",
+    "lineItems": [
+      {
+        "productId": "p1a2b3c4-5678-90ab-cdef-111111111111",
+        "quantity": 4,
+        "unitPrice": 3200.00
+      },
+      {
+        "productId": "p3a2b3c4-5678-90ab-cdef-333333333333",
+        "quantity": 2,
+        "unitPrice": 4800.00
+      }
+    ]
+  },
+  {
+    "id": "i12a2b3c-5678-90ab-cdef-121212121212",
+    "dealerId": "d2a2b3c4-5678-90ab-cdef-222222222222",
+    "vendorId": "v2a2b3c4-5678-90ab-cdef-222222222222",
+    "invoiceNumber": "INV-2025-0012",
+    "date": "2025-03-25",
+    "lineItems": [
+      {
+        "productId": "p4a2b3c4-5678-90ab-cdef-444444444444",
+        "quantity": 5,
+        "unitPrice": 5600.00
+      },
+      {
+        "productId": "p6a2b3c4-5678-90ab-cdef-666666666666",
+        "quantity": 3,
+        "unitPrice": 2900.00
+      }
+    ]
+  }
+]
+

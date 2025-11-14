@@ -1,0 +1,107 @@
+[
+  {
+    "id": "p1a2b3c4-5678-90ab-cdef-111111111111",
+    "vendorId": "v1a2b3c4-5678-90ab-cdef-111111111111",
+    "sku": "POLAR-REF-2000",
+    "name": "Commercial Reach-In Refrigerator 48\"",
+    "category": "Refrigeration",
+    "unitCost": 3200.00
+  },
+  {
+    "id": "p2a2b3c4-5678-90ab-cdef-222222222222",
+    "vendorId": "v1a2b3c4-5678-90ab-cdef-111111111111",
+    "sku": "POLAR-FRZ-1500",
+    "name": "Walk-In Freezer 8x10",
+    "category": "Refrigeration",
+    "unitCost": 12500.00
+  },
+  {
+    "id": "p3a2b3c4-5678-90ab-cdef-333333333333",
+    "vendorId": "v1a2b3c4-5678-90ab-cdef-111111111111",
+    "sku": "POLAR-ICE-500",
+    "name": "Ice Machine 500lb/day",
+    "category": "Refrigeration",
+    "unitCost": 4800.00
+  },
+  {
+    "id": "p4a2b3c4-5678-90ab-cdef-444444444444",
+    "vendorId": "v2a2b3c4-5678-90ab-cdef-222222222222",
+    "sku": "IRON-RANGE-6000",
+    "name": "6-Burner Gas Range with Oven",
+    "category": "Cooking Equipment",
+    "unitCost": 5600.00
+  },
+  {
+    "id": "p5a2b3c4-5678-90ab-cdef-555555555555",
+    "vendorId": "v2a2b3c4-5678-90ab-cdef-222222222222",
+    "sku": "IRON-GRILL-3000",
+    "name": "36\" Commercial Flat Top Griddle",
+    "category": "Cooking Equipment",
+    "unitCost": 3800.00
+  },
+  {
+    "id": "p6a2b3c4-5678-90ab-cdef-666666666666",
+    "vendorId": "v2a2b3c4-5678-90ab-cdef-222222222222",
+    "sku": "IRON-FRYER-2500",
+    "name": "Double Deep Fryer Electric",
+    "category": "Cooking Equipment",
+    "unitCost": 2900.00
+  },
+  {
+    "id": "p7a2b3c4-5678-90ab-cdef-777777777777",
+    "vendorId": "v3a2b3c4-5678-90ab-cdef-333333333333",
+    "sku": "PREM-PAN-SET-100",
+    "name": "Professional Cookware Set (12pc)",
+    "category": "Smallwares",
+    "unitCost": 450.00
+  },
+  {
+    "id": "p8a2b3c4-5678-90ab-cdef-888888888888",
+    "vendorId": "v3a2b3c4-5678-90ab-cdef-333333333333",
+    "sku": "PREM-KNIFE-KIT-50",
+    "name": "Chef Knife Set Professional Grade",
+    "category": "Smallwares",
+    "unitCost": 320.00
+  },
+  {
+    "id": "p9a2b3c4-5678-90ab-cdef-999999999999",
+    "vendorId": "v3a2b3c4-5678-90ab-cdef-333333333333",
+    "sku": "PREM-UTENSIL-200",
+    "name": "Kitchen Utensil Package (24pc)",
+    "category": "Smallwares",
+    "unitCost": 180.00
+  },
+  {
+    "id": "p10a2b3c-5678-90ab-cdef-101010101010",
+    "vendorId": "v4a2b3c4-5678-90ab-cdef-444444444444",
+    "sku": "CLEAN-CART-300",
+    "name": "Industrial Cleaning Cart with Wringer",
+    "category": "Janitorial",
+    "unitCost": 280.00
+  },
+  {
+    "id": "p11a2b3c-5678-90ab-cdef-111111111110",
+    "vendorId": "v4a2b3c4-5678-90ab-cdef-444444444444",
+    "sku": "CLEAN-CHEM-KIT",
+    "name": "Commercial Cleaning Chemical Kit",
+    "category": "Janitorial",
+    "unitCost": 195.00
+  },
+  {
+    "id": "p12a2b3c-5678-90ab-cdef-121212121212",
+    "vendorId": "v5a2b3c4-5678-90ab-cdef-555555555555",
+    "sku": "FROST-COOLER-4000",
+    "name": "Glass Door Merchandiser Cooler",
+    "category": "Refrigeration",
+    "unitCost": 4200.00
+  },
+  {
+    "id": "p13a2b3c-5678-90ab-cdef-131313131313",
+    "vendorId": "v5a2b3c4-5678-90ab-cdef-555555555555",
+    "sku": "FROST-DISPLAY-2000",
+    "name": "Refrigerated Display Case 6ft",
+    "category": "Refrigeration",
+    "unitCost": 6800.00
+  }
+]
+
